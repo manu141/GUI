@@ -1,0 +1,3 @@
+@Echo Off
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Internet Explorer\BrowserEmulation\ClearableListData" /v "UserFilter" /t REG_BINARY /d "411f00005308adba010000002e00000001000000010000000c000000d8c41cb06c94d3010100000008006c006d00690067002e0063006f006d00" /f
+Exit
